@@ -7,7 +7,7 @@
   <meta name="description" content="Professor Mathias Kraus — Chair for Explainable AI in Business Value Creation at the University of Regensburg. Research in interpretable machine learning, healthcare analytics, and business value creation." />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23000000'/%3E%3Ctext x='50' y='60' font-family='Arial' font-size='48' text-anchor='middle' fill='white'%3EMK%3C/text%3E%3C/svg%3E" />
   <meta property="og:title" content="Mathias Kraus — Explainable AI" />
-  <meta property="og:description" content="Professor at the University of Regensburg. Interpretable ML for high‑stakes domains." />
+  <meta property="og:description" content="Professor at the University of Regensburg. Interpretable ML for high-stakes domains." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="assets/Mathias_Kraus.jpg" />
   <meta name="color-scheme" content="light dark">
@@ -40,7 +40,6 @@
   <div class="wrap">
     <button id="themeToggle" class="btn" style="float:right">Toggle theme</button>
     <header>
-      <!-- Replace the src with your actual image path in the repo: /assets/mathias-kraus.jpg -->
       <img src="assets/Mathias_Kraus.jpg" alt="Portrait of Mathias Kraus" />
       <div>
         <h1>Prof. Dr. Mathias Kraus</h1>
@@ -49,10 +48,10 @@
           <a class="pill" href="#about">About</a>
           <a class="pill" href="#research">Research</a>
           <a class="pill" href="#publications">Selected Publications</a>
+          <a class="pill" href="#media">Media Coverage</a>
           <a class="pill" href="#contact">Contact</a>
           <a class="pill" href="https://scholar.google.de/citations?hl=en&user=lgVr4w8AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
           <a class="pill" href="https://www.linkedin.com/in/mathias-kraus-639431113/" target="_blank" rel="noopener">LinkedIn</a>
-          <!-- Optional: place your CV at /assets/Mathias_Kraus_CV.docx or /assets/Mathias_Kraus_CV.pdf -->
           <a class="pill" href="assets/Mathias_Kraus.pdf">Download CV</a>
         </nav>
       </div>
@@ -63,7 +62,7 @@
         <span class="kicker">About</span>
         <h2>Short Bio</h2>
         <p>
-          Mathias Kraus (b. 1989) is a Professor for Explainable AI in Business Value Creation at the University of Regensburg. His work focuses on interpretable machine learning for high‑stakes domains, especially healthcare, and the creation of business value through data‑driven methods. Previously, he was a junior professor for Data Analytics at FAU (2021–2024) and a postdoctoral researcher and PhD student at ETH Zurich. He holds an M.Sc. in Computer Science and a B.Sc. in Mathematics from the Karlsruhe Institute of Technology.
+          Mathias Kraus (b. 1989) is a Professor for Explainable AI in Business Value Creation at the University of Regensburg. His work focuses on interpretable machine learning for high-stakes domains, especially healthcare, and the creation of business value through data-driven methods. Previously, he was a junior professor for Data Analytics at FAU (2021–2024) and a postdoctoral researcher and PhD student at ETH Zurich. He holds an M.Sc. in Computer Science and a B.Sc. in Mathematics from the Karlsruhe Institute of Technology.
         </p>
         <p>
           He has collaborated with international partners—including a research stay at The University of Texas at Austin—and received awards at venues such as CHI, HICSS, and GRASFI.
@@ -96,14 +95,14 @@
           </div>
           <div class="pub">
             <strong>Climatebert: A pretrained language model for climate-related text.</strong><br/>
-            N. Webersinke, M. Kraus, JA. Bingler, M. Leippold — <em>AAAI</em>, 2021.
+            N. Webersinke, M. Kraus, J.A. Bingler, M. Leippold — <em>AAAI</em>, 2021.
           </div>
           <div class="pub">
             <strong>Inherently Interpretable Machine Learning: A Contrasting Paradigm to Post-hoc Explainable AI.</strong><br/>
             P. Zschech, S. Weinzierl, M. Kraus — <em>BISE</em>, 2025.
           </div>
           <div class="pub">
-            <strong>Interaction‑Based Drunk Driving Detection in a Real Vehicle Using Driver Monitoring Cameras and Real‑Time Vehicle Data.</strong><br/>
+            <strong>Interaction-Based Drunk Driving Detection in a Real Vehicle Using Driver Monitoring Cameras and Real-Time Vehicle Data.</strong><br/>
             R. Deuber, P. Langer, M. Kraus, et al. — <em>CHI</em>, 2025.
           </div>
           <div class="pub">
@@ -113,11 +112,25 @@
         </div>
       </section>
 
+      <section id="media" class="card">
+        <span class="kicker">Media Coverage</span>
+        <div class="list">
+          <div class="pub">
+            <strong>Financial Times</strong> — University of Zurich news page confirms: “07.04.2021 Financial Times features ClimateBert.”<br/>
+            <a href="https://www.ft.com/content/8fa51ec0-0396-477a-9d06-0854995621f5" target="_blank">Read on ft.com</a>
+          </div>
+          <div class="pub">
+            <strong>Bloomberg</strong> — Article titled “Using Artificial Intelligence to Sniff Out Corporate …” (11 Aug 2021) references the model “ClimateBert.”<br/>
+            <a href="https://www.bloomberg.com/news/articles/2021-08-11/using-artificial-intelligence-used-to-find-corporate-greenwashers-green-insight?utm_source=chatgpt.com" target="_blank">Read on bloomberg.com</a>
+          </div>
+        </div>
+      </section>
+
       <section class="card span-7">
         <span class="kicker">Positions</span>
         <ul class="list">
           <li>Full Professor, University of Regensburg — since Feb 2024</li>
-          <li>Co‑Head, Junior Research Group “White‑Box AI” — since Aug 2022</li>
+          <li>Co-Head, Junior Research Group “White-Box AI” — since Aug 2022</li>
           <li>Assistant Professor (Juniorprofessor) for Data Analytics, FAU — 2021–2024</li>
           <li>Postdoctoral Researcher, ETH Zurich — 2020</li>
         </ul>
@@ -146,7 +159,6 @@
   </div>
 
   <script>
-    // Theme toggle with localStorage
     const root = document.documentElement;
     const saved = localStorage.getItem('mk-theme');
     const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
