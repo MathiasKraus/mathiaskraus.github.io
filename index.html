@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mathias Kraus — Explainable AI in Business Value Creation</title>
+  <meta name="description" content="Professor Mathias Kraus — Chair for Explainable AI in Business Value Creation at the University of Regensburg. Research in interpretable machine learning, healthcare analytics, and business value creation." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23000000'/%3E%3Ctext x='50' y='60' font-family='Arial' font-size='48' text-anchor='middle' fill='white'%3EMK%3C/text%3E%3C/svg%3E" />
+  <meta property="og:title" content="Mathias Kraus — Explainable AI" />
+  <meta property="og:description" content="Professor at the University of Regensburg. Interpretable ML for high‑stakes domains." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/mathias-kraus.jpg" />
+  <meta name="color-scheme" content="light dark">
+  <style>
+    :root{--bg:#0b0c10;--card:#11131a;--text:#e9eef7;--muted:#b7c3d0;--accent:#7aa2ff;--line:#23273a;--pill:#1b1f30;}
+    :root.light{--bg:#f9fafb;--card:#ffffff;--text:#0f172a;--muted:#475569;--accent:#1d4ed8;--line:#e5e7eb;--pill:#f1f5f9}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;color:var(--text);background:linear-gradient(180deg,var(--bg),#0e1117)}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px}
+    header{display:flex;gap:28px;align-items:center;padding:28px 0;border-bottom:1px solid var(--line)}
+    header img{width:132px;height:132px;object-fit:cover;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    h1{font-size:clamp(28px,5vw,40px);margin:0 0 6px}
+    .role{margin:0;color:var(--muted);font-size:clamp(14px,2.4vw,16px)}
+    .pill{display:inline-flex;gap:8px;align-items:center;background:var(--pill);border:1px solid var(--line);padding:8px 12px;border-radius:999px;font-size:14px;margin-right:8px}
+    nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:26px}
+    .card{grid-column:span 12;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px}
+    .card h2{margin:6px 0 14px;font-size:22px}
+    .list{display:grid;gap:12px}
+    .pub{padding:12px 14px;border:1px dashed var(--line);border-radius:14px;background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,0))}
+    .footer{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding:20px 0;margin-top:26px;color:var(--muted);font-size:14px}
+    .kicker{color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:12px}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;border:1px solid var(--line);background:var(--pill)}
+    @media (min-width:900px){.card.span-7{grid-column:span 7}.card.span-5{grid-column:span 5}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <button id="themeToggle" class="btn" style="float:right">Toggle theme</button>
+    <header>
+      <!-- Replace the src with your actual image path in the repo: /assets/mathias-kraus.jpg -->
+      <img src="assets/mathias-kraus.jpg" alt="Portrait of Mathias Kraus" />
+      <div>
+        <h1>Prof. Dr. Mathias Kraus</h1>
+        <p class="role">Chair for Explainable AI in Business Value Creation — University of Regensburg</p>
+        <nav>
+          <a class="pill" href="#about">About</a>
+          <a class="pill" href="#research">Research</a>
+          <a class="pill" href="#publications">Selected Publications</a>
+          <a class="pill" href="#contact">Contact</a>
+          <a class="pill" href="https://scholar.google.de/citations?hl=en&user=lgVr4w8AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <a class="pill" href="https://www.linkedin.com/in/mathias-kraus-639431113/" target="_blank" rel="noopener">LinkedIn</a>
+          <!-- Optional: place your CV at /assets/Mathias_Kraus_CV.docx or /assets/Mathias_Kraus_CV.pdf -->
+          <a class="pill" href="assets/Mathias_Kraus_CV.docx">Download CV</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section id="about" class="card span-7">
+        <span class="kicker">About</span>
+        <h2>Short Bio</h2>
+        <p>
+          Mathias Kraus (b. 1989) is a Professor for Explainable AI in Business Value Creation at the University of Regensburg. His work focuses on interpretable machine learning for high‑stakes domains, especially healthcare, and the creation of business value through data‑driven methods. Previously, he was a junior professor for Data Analytics at FAU (2021–2024) and a postdoctoral researcher and PhD student at ETH Zurich. He holds an M.Sc. in Computer Science and a B.Sc. in Mathematics from the Karlsruhe Institute of Technology.
+        </p>
+        <p>
+          He has collaborated with international partners—including a research stay at The University of Texas at Austin—and received awards at venues such as CHI, HICSS, and GRASFI.
+        </p>
+      </section>
+
+      <section id="research" class="card span-5">
+        <span class="kicker">Research</span>
+        <h2>Interests</h2>
+        <ul class="list">
+          <li>Interpretable / Explainable Machine Learning</li>
+          <li>Healthcare Analytics & Risk Scoring</li>
+          <li>Operations Research & Information Systems</li>
+          <li>Deep Learning for Business Analytics</li>
+        </ul>
+        <div style="margin-top:14px">
+          <a class="btn" href="https://scholar.google.de/citations?hl=en&user=lgVr4w8AAAAJ" target="_blank" rel="noopener">View full publication list →</a>
+        </div>
+      </section>
+
+      <section id="publications" class="card">
+        <span class="kicker">Selected Publications</span>
+        <div class="list">
+          <div class="pub">
+            <strong>Interpretable Generalized Additive Neural Networks.</strong><br/>
+            M. Kraus, D. Tschernutter, S. Weinzierl, P. Zschech — <em>European Journal of Operational Research</em>, 317:303–316, 2024.
+          </div>
+          <div class="pub">
+            <strong>Data‑Driven Allocation of Preventive Care: The Case of Diabetes Mellitus Type II.</strong><br/>
+            M. Kraus, M. Saar‑Tsechansky, S. Feuerriegel — <em>Manufacturing & Service Operations Management</em>, 26(1):137–153, 2023.
+          </div>
+          <div class="pub">
+            <strong>AttDMM: An Attentive Deep Markov Model for Risk Scoring in Intensive Care Units.</strong><br/>
+            Y. Oezyurt, M. Kraus, T. Hatt, S. Feuerriegel — <em>KDD</em>, 2021.
+          </div>
+          <div class="pub">
+            <strong>Interaction‑Based Drunk Driving Detection in a Real Vehicle Using Driver Monitoring Cameras and Real‑Time Vehicle Data.</strong><br/>
+            R. Deuber, P. Langer, M. Kraus, et al. — <em>CHI</em>, 2025.
+          </div>
+        </div>
+      </section>
+
+      <section class="card span-7">
+        <span class="kicker">Positions</span>
+        <ul class="list">
+          <li>Full Professor, University of Regensburg — since Feb 2024</li>
+          <li>Co‑Head, Junior Research Group “White‑Box AI” — since Aug 2022</li>
+          <li>Assistant Professor (Juniorprofessor) for Data Analytics, FAU — 2021–2024</li>
+          <li>Postdoctoral Researcher, ETH Zurich — 2020</li>
+        </ul>
+      </section>
+
+      <section class="card span-5">
+        <span class="kicker">Education</span>
+        <ul class="list">
+          <li>PhD, ETH Zurich — 2020 (Dissertation: <em>Deep Learning in Business Analytics: Methods and Applications</em>)</li>
+          <li>M.Sc. Computer Science, KIT — 2017</li>
+          <li>B.Sc. Mathematics, KIT — 2014</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="card">
+        <span class="kicker">Contact</span>
+        <p>University of Regensburg • Faculty of Informatics & Data Science • Bajuwarenstraße 4, 93053 Regensburg, Germany</p>
+        <p><a href="mailto:mathias.kraus@ur.de">mathias.kraus@ur.de</a></p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Mathias Kraus</span>
+      <span><a href="#top">Back to top ↑</a></span>
+    </footer>
+  </div>
+
+  <script>
+    // Theme toggle with localStorage
+    const root = document.documentElement;
+    const saved = localStorage.getItem('mk-theme');
+    const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+    if(saved === 'light' || (!saved && prefersLight)) root.classList.add('light');
+    document.getElementById('themeToggle').addEventListener('click',()=>{
+      root.classList.toggle('light');
+      localStorage.setItem('mk-theme', root.classList.contains('light') ? 'light' : 'dark');
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mathias Kraus",
+    "jobTitle": "Professor of Explainable AI in Business Value Creation",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "University of Regensburg"
+    },
+    "email": "mailto:mathias.kraus@ur.de",
+    "image": "assets/mathias-kraus.jpg",
+    "url": "https://mathiaskraus.github.io/",
+    "sameAs": [
+      "https://scholar.google.de/citations?hl=en&user=lgVr4w8AAAAJ",
+      "https://www.linkedin.com/in/mathias-kraus-639431113/"
+    ]
+  }
+  </script>
+</body>
+</html>
